@@ -104,3 +104,11 @@
       width: 100%;
 
    }
+
+   .section__description--wrapper {
+      width: 60%;
+   }
+
+   .section__description--para {
+      font-size: 20px;
+   }
