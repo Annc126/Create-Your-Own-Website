@@ -36,55 +36,60 @@
   <main>
     <section id="about">
       <h2>About</h2>
+      <div class="row"></div>
+
       <div class="section__description">
         <div class="section__description--wrapper">
           <p class="section__description--para">
-           Lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
            </p>
-           <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+           <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
            </p>
         </div>
-           <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-           </p>
-           <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-           </p>
-        <div>
-          <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          </p>
-          <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          </p>
-
+        <figure class="about__image--wrapper">
+          <img src="./assets/about.jpg" alt="">
+        </figure>
       </div>
+      </section>  
+      
+      <section id="discord">
+      <h2>Discord</h2>
+      <div class="row"></div>
+      <div class="section__description">
+        <figure>
+          <img src="./assets/discord.png" alt="Discord">   
+        </figure>
+      </div>
+        <div class=""">
+          <p class="section__description--para">               
+            lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          </p>
+          <p class="section__description--para">
+            lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          </p>
+        </div>
+        <div>
+          <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          </p>
+          <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+          </p>
+        </div>
+      </section>  
+     
       
         <div>
-         <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+         <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
          </p>
-         <p>lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+         <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
          </p>
         </div>
         <figure class="about__image--wrapper">
-        <img src="./assets/about.jpg" alt="">
+          <img src="./assets/about.jpg" alt="">
         </figure>
+      </div>  
     </section>
 
-    <section id="discord">
-      <h2>Discord</h2>
-      <figure>
-        <img src="./assets/discord.png" alt="">
-      </figure>
-    
-      <p>
-        lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-      </p>
-      <p>
-        Lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-      </p>
-      <p>
-        Lorem300 ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-      </p>
-    </section>
-
-  <section id="contact">
+    <section id="contact">
     <h2>Contact</h2>
     <form action="">
       <span>Name</span>
@@ -92,16 +97,19 @@
       <span>Email</span>
       <input type="email" placeholder="jane@example.com">
       <span>Message</span>
-      <textarea placeholder="jane@example.com"></textarea>
+      <textarea placeholder="Cool website, let's get connected!"></textarea>
+      <button>Contact Us!</button>
     </form>
   </section>
   </main>
+
   <footer>
-    <img src="./assets/FES.svg" alt="">
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
+    <img class="footer--logo" src="./assets/FES.svg" alt="">
+    
+      <div class="footer--links">
+        <a class="footer--link" href="#about">About</a>
+        <a class="footer--link" href="#discord">Discord</a>
+        <a class="footer--link" href="#contact">Contact</a>
      
       </div>
         <p>&copy; Frontend Simplified</p>
